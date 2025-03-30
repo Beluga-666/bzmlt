@@ -69,7 +69,7 @@ body {
 /* 媒体查询，当屏幕宽度小于等于 600px 时应用 */
 @media (max-width: 600px) {
     #rin-bg {
-        background-image: url('img/mbg.jpeg'); /* 替换为手机端适配的图片路径 */
+        background-image: url('./mbg.jpeg'); /* 替换为手机端适配的图片路径 */
     }
 }
 #rin-bg:after {
@@ -140,26 +140,26 @@ body {
     document.addEventListener('DOMContentLoaded', function() {
         // 电脑端图片数组，增加到八张图片路径
         const desktopImages = [
-            'img/bg-1.jpeg',
-            'img/bg-2.jpeg',
-            'img/bg-3.jpeg',
-            'img/bg-4.jpeg',
-            'img/bg-5.jpeg',
-            'img/bg-6.jpeg',
-            'img/bg-7.jpeg',
-            'img/bg-8.jpeg',
-            'img/bg-9.jpeg',
+            './bg-1.jpeg',
+            './bg-2.jpeg',
+            './bg-3.jpeg',
+            './bg-4.jpeg',
+            './bg-5.jpeg',
+            './bg-6.jpeg',
+            './bg-7.jpeg',
+            './bg-8.jpeg',
+            './bg-9.jpeg',
         ];
         // 手机端图片数组，增加到八张图片路径
         const mobileImages = [
-            'img/mbg-1.jpeg',
-            'img/mbg-2.jpeg',
-            'img/mbg-3.jpeg',
-            'img/mbg-4.jpeg',
-            'img/mbg-5.jpeg',
-            'img/mbg-6.jpeg',
-            'img/mbg-7.jpeg',
-            'img/mbg-8.jpeg'
+            './mbg-1.jpeg',
+            './mbg-2.jpeg',
+            './mbg-3.jpeg',
+            './mbg-4.jpeg',
+            './mbg-5.jpeg',
+            './mbg-6.jpeg',
+            './mbg-7.jpeg',
+            './mbg-8.jpeg'
         ];
         // 获取背景元素
         const bgElement = document.getElementById('rin-bg');
